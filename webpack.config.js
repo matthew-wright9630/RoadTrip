@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   devtool: "inline-source-map",
   entry: {
-    main: "./src/pages/index.js",
+    main: "./src/index.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -55,3 +55,4 @@ module.exports = {
     new MiniCssExtractPlugin(),
   ],
 };
+
